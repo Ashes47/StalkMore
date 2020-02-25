@@ -466,19 +466,19 @@ public final class R {
         public static final int ic_play_light = 0x7f0700bd;
         public static final int ic_setting_dark = 0x7f0700c2;
         public static final int ic_setting_light = 0x7f0700c3;
-        public static final int mr_ic_cast_dark = 0x7f0700c7;
-        public static final int mr_ic_cast_light = 0x7f0700c8;
-        public static final int mr_ic_media_route_connecting_mono_dark = 0x7f0700c9;
-        public static final int mr_ic_media_route_connecting_mono_light = 0x7f0700ca;
-        public static final int mr_ic_media_route_mono_dark = 0x7f0700cb;
-        public static final int mr_ic_media_route_mono_light = 0x7f0700cc;
-        public static final int mr_ic_pause_dark = 0x7f0700cd;
-        public static final int mr_ic_pause_light = 0x7f0700ce;
-        public static final int mr_ic_play_dark = 0x7f0700cf;
-        public static final int mr_ic_play_light = 0x7f0700d0;
-        public static final int mr_ic_settings_dark = 0x7f0700d1;
-        public static final int mr_ic_settings_light = 0x7f0700d2;
-        public static final int notification_template_icon_bg = 0x7f0700db;
+        public static final int mr_ic_cast_dark = 0x7f0700c6;
+        public static final int mr_ic_cast_light = 0x7f0700c7;
+        public static final int mr_ic_media_route_connecting_mono_dark = 0x7f0700c8;
+        public static final int mr_ic_media_route_connecting_mono_light = 0x7f0700c9;
+        public static final int mr_ic_media_route_mono_dark = 0x7f0700ca;
+        public static final int mr_ic_media_route_mono_light = 0x7f0700cb;
+        public static final int mr_ic_pause_dark = 0x7f0700cc;
+        public static final int mr_ic_pause_light = 0x7f0700cd;
+        public static final int mr_ic_play_dark = 0x7f0700ce;
+        public static final int mr_ic_play_light = 0x7f0700cf;
+        public static final int mr_ic_settings_dark = 0x7f0700d0;
+        public static final int mr_ic_settings_light = 0x7f0700d1;
+        public static final int notification_template_icon_bg = 0x7f0700da;
     }
     public static final class id {
         private id() {}

@@ -12,6 +12,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
@@ -43,6 +45,7 @@ public class UserListActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         Uri selectedImage = data.getData();
+
 
         if (requestCode == 1 && resultCode == RESULT_OK && data !=null) {
             try {
@@ -116,11 +119,11 @@ public class UserListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_list);
 
-        setTitle("User Feed");
+        setTitle("Connections");
 
         final ListView listView = findViewById(R.id.listView);
         final ArrayList<String> username = new ArrayList<>();
-        final ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,username);
+        final ArrayAdapter arrayAdapter = new ArrayAdapter(this,R.layout.text_view,username);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -145,6 +148,8 @@ public class UserListActivity extends AppCompatActivity {
                             username.add(user.getUsername());
                         }
                         listView.setAdapter(arrayAdapter);
+                        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide);
+                        listView.startAnimation(animation);
                     }
                 } else {
                     e.printStackTrace();

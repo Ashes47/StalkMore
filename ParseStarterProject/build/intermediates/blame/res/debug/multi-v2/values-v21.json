@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android\\InstagramClone\\parseproject\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\Android\\InstagramClone\\parseproject\\StalkMore\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\755c4f24ff9121f9eeea2710e1337597\\play-services-appinvite-9.4.0\\res\\values-v21\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "219",
-                        "endColumns": "121",
-                        "endOffsets": "336"
-                    },
-                    "to": {
-                        "startLines": "295",
-                        "startColumns": "4",
-                        "startOffsets": "21613",
-                        "endColumns": "121",
-                        "endOffsets": "21730"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\b758f2df2dfc1b8314a2e4ca40419760\\support-compat-26.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\4a8345483ac9f20be2a85a5d2d060e14\\support-compat-26.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\e6a4c4272ab27e103526904bdcebf48a\\appcompat-v7-26.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\ad61168dba621c7f1109ac59d9e9cc43\\appcompat-v7-26.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247,259,260,261,264,267,268,271,272",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -59,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\6095677078b39271c987ed6f771f06a8\\support-media-compat-26.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\33f496d72c90363f2289c27ae2e32d0f\\support-media-compat-26.0.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -75,6 +58,23 @@
                         "endLines": "283,286,290,294",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "20856,21019,21313,21608"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\bf9769dd7961962d683bc48047f7d5ba\\play-services-appinvite-9.4.0\\res\\values-v21\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "219",
+                        "endColumns": "121",
+                        "endOffsets": "336"
+                    },
+                    "to": {
+                        "startLines": "295",
+                        "startColumns": "4",
+                        "startOffsets": "21613",
+                        "endColumns": "121",
+                        "endOffsets": "21730"
                     }
                 }
             ]

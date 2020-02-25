@@ -912,7 +912,6 @@ drawable ic_setting_dark
 drawable ic_setting_light
 drawable icon
 drawable instagram
-drawable instagram1
 drawable mr_ic_cast_dark
 drawable mr_ic_cast_light
 drawable mr_ic_media_route_connecting_mono_dark

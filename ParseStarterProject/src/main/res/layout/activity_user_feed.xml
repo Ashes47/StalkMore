@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".UserFeedActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
         android:id="@+id/linLayout"
         android:layout_width="match_parent"
@@ -16,4 +20,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

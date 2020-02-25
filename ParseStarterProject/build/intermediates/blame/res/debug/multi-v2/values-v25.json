@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android\\InstagramClone\\parseproject\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "D:\\Android\\InstagramClone\\parseproject\\StalkMore\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\e6a4c4272ab27e103526904bdcebf48a\\appcompat-v7-26.0.0\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\ad61168dba621c7f1109ac59d9e9cc43\\appcompat-v7-26.0.0\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

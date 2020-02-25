@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android\\InstagramClone\\parseproject\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "D:\\Android\\InstagramClone\\parseproject\\StalkMore\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\e6a4c4272ab27e103526904bdcebf48a\\appcompat-v7-26.0.0\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\ad61168dba621c7f1109ac59d9e9cc43\\appcompat-v7-26.0.0\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\755c4f24ff9121f9eeea2710e1337597\\play-services-appinvite-9.4.0\\res\\values-v11\\values.xml",
+                    "source": "C:\\Users\\anuj4\\.gradle\\caches\\transforms-2\\files-2.1\\bf9769dd7961962d683bc48047f7d5ba\\play-services-appinvite-9.4.0\\res\\values-v11\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
