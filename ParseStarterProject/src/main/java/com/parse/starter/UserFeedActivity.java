@@ -67,15 +67,17 @@ public class UserFeedActivity extends AppCompatActivity {
                                             @Override
                                             public void onClick(View view) {
 
+                                                try {
+
                                                 Intent intent = new Intent(getApplicationContext(),FullScreenImageActivity.class);
 
                                                 ByteArrayOutputStream bs = new ByteArrayOutputStream();
                                                 bitmap.compress(Bitmap.CompressFormat.PNG, 100, bs);
 
                                                 intent.putExtra("byteArray", bs.toByteArray());
-                                                try {
-                                                    startActivity(intent);
-                                                }catch (Exception e){
+                                                startActivity(intent);
+
+                                                } catch (Exception e){
                                                     e.printStackTrace();
                                                 }
                                             }
