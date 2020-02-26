@@ -7,37 +7,28 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 package com.parse.starter;
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.inputmethod.InputMethod;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.parse.FindCallback;
-import com.parse.GetCallback;
 import com.parse.LogInCallback;
-import com.parse.Parse;
 import com.parse.ParseAnalytics;
-import com.parse.ParseAnonymousUtils;
 import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
 import com.parse.ParseUser;
-import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
-
-import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener  {
@@ -50,6 +41,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   public void showUserList() {
     Intent intent = new Intent(getApplicationContext(),UserListActivity.class);
     startActivity(intent);
+  }
+
+  @Override
+  public void onBackPressed() {
+    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+    builder.setMessage("Are you sure you want to exit?")
+            .setCancelable(false)
+            .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+              @Override
+              public void onClick(DialogInterface dialogInterface, int i) {
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+              }
+            })
+            .setNegativeButton("No", new DialogInterface.OnClickListener() {
+              public void onClick(DialogInterface dialog, int id) {
+                dialog.cancel();
+              }
+            });
+    AlertDialog alert = builder.create();
+    alert.show();
+
   }
 
   @Override
